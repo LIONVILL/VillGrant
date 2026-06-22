@@ -1,0 +1,19 @@
+name: VillGrant
+prefix: [ VillGrant ]
+version: '${version}'
+
+main: com.villoni.villGrant.VillGrant
+api-version: '1.21.7'
+load: STARTUP
+
+authors: [ Villoni (t.me/VilloniQ) ]
+
+commands:
+  grant:
+    aliases:
+      - gnt
+    permission: grant.use
+
+permissions:
+  grant.use:
+    default: op

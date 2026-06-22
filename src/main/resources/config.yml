@@ -1,0 +1,27 @@
+prefix: "&8[&b&lGrant&8] &r"
+
+required-permission: "group.elite"
+
+groups:
+  killer:
+    cooldown-days: 30
+
+  marauder:
+    cooldown-days: 30
+
+messages:
+  no-permission: "&cУ тебя нет права на использование этой команды!"
+
+  elite-only: "{prefix}&cТолько игроки с привилегией &bElite &cмогут использовать эту команду!"
+
+  player-not-found: "{prefix}&cИгрок не найден!"
+
+  invalid-group: "{prefix}&cДоступные привилегии: &bkiller &cи &bmarauder"
+
+  cooldown: "{prefix}&c{group} можно выдать через &b{time}&c!"
+
+  success: "{prefix}&aТы успешно выдал &b{group} &aигроку &b{player}"
+
+  broadcast: "&8[&b&lGrant&8] &b{sender} &7выдал &b{group} &7игроку &b{player}"
+
+  receive: "&aТебе выдали привилегию &b{group}&a навсегда!"
